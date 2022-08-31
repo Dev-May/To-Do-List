@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="newtask">
+        <h2>To Do List</h2>
+
+        <input type="text" placeholder="e.g. Go to the market" />
+
+        <button id="push" class="push-btn">Add</button>
+      </div>
+
+      <div class="filterSection">
+        <ul class="filter">
+          <i class="fa fa-filter" style="margin: 5px"></i>
+          <li>All</li>
+          <li>Pending</li>
+          <li>Completed</li>
+        </ul>
+
+        <button id="clear" class="clear-btn">Clear all Items</button>
+      </div>
+
+      <div id="tasks"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
