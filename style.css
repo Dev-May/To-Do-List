@@ -65,7 +65,6 @@ body {
   justify-content: space-between;
   position: relative;
   padding: 20px 20px;
-  /* text-align: center; */
 }
 
 .filter {
@@ -81,8 +80,6 @@ body {
 }
 
 .clear-btn {
-  /* position: relative; */
-  /* float: right; */
   font-weight: 500;
   font-size: 12px;
   background-color: #b90404;
