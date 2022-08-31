@@ -41,11 +41,7 @@ body {
   font-size: 15px;
   border: 1px #d1d3d4;
   background-color: #eff7f7;
-}
-
-#newtask input:focus {
   outline: none;
-  border-color: #0d75ec;
 }
 
 .push-btn {
@@ -127,7 +123,7 @@ body {
   font-weight: 400;
 }
 .task button {
-  /* background-color: #0a2ea4; */
+  background-color: #fff;
   color: red;
   border: none;
   cursor: pointer;
